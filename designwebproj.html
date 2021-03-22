@@ -1,0 +1,400 @@
+<html>
+<head>
+<script>
+    </script>
+<style>
+
+.topnav {
+    overflow: hidden;
+    background-color: turquoise;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    left: 14px;
+    padding: 14px 16px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Arial", sans-serif;
+}
+
+.topnav a:hover {
+    background-color: navy;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: navy;
+    color: white;
+}
+.container:hover {
+    background: white;
+    }
+.container {
+    float:left;
+    left: 60px;
+    position: relative;
+    }
+.container .content {
+    position: relative;
+    bottom: 0;
+    background: navy;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    max-width: 466px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    }
+
+.container1 {
+    float: right;
+    right: 60px;
+    position: relative;
+    }
+.container1 .content1 {
+    position: relative;
+    bottom: 0;
+    background: navy;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    max-width: 466px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    }
+
+.button {
+    position:absolute;
+    top:700px;
+    left:63px;
+    border-radius: 4px;
+    background-color: turquoise;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 506px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button1 {
+    position:absolute;
+    top:700px;
+    right:63px;
+    border-radius: 4px;
+    background-color: turquoise;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 506px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.electric {
+    position:absolute;
+    top: 150px;
+    left: 50px;
+    bottom: 30px;
+    height: 345px;
+    }
+
+.electric-text {
+    position: relative;
+    top: 92px;
+    left: 670px;
+    width: 700px;
+    height: 280px;
+    font-size: 27px;
+    padding: 12px;
+    border: 5px solid turquoise;
+    background-color: navy;
+    color: white;
+    font-family: "Arial", sans-serif;
+    }
+
+    
+.oldelectric {
+    position:absolute;
+    top: 150px;
+    right: 50px;
+    bottom: 30px;
+    height: 345px;
+    }
+
+.oldelectric-text {
+    position: relative;
+    top: 92px;
+    left: 35px;
+    width: 700px;
+    height: 280px;
+    font-size: 27px;
+    padding: 12px;
+    border: 5px solid turquoise;
+    background-color: navy;
+    color: white;
+    font-family: "Arial", sans-serif;
+    }
+
+header {
+    position:absolute;
+    top: 850px;
+    left:0px;
+    }
+header, .full-width {
+    width: 100%;
+    background: navy;
+    max-height: 80px;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    
+}
+header1 {
+    position:absolute;
+    top: 1400px;
+    left:0px
+    }
+header1, .full-width {
+    width: 100%;
+    background: turquoise;
+    max-height: 80px;
+}
+.wrap1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    
+}
+  
+header2 {
+    position:absolute;
+    top: 1970px;
+    left:0px
+    }
+header2, .full-width {
+    width: 100%;
+    background: navy;
+    max-height: 80px;
+}
+.wrap2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    
+}
+
+.KIA {
+    position:absolute;
+    top: 190px;
+    right: 100px;
+    bottom: 30px;
+    height: 345px;
+    border: 5px solid navy;
+    }
+
+.KIA-text {
+    top:50px;
+    float: right;
+    right: 275px;
+    text-align: center;
+    position:relative;
+    background: turquoise;
+    padding: 20px;
+    border: 5px solid navy;
+    font-family: "Arial", sans-serif;
+    }
+
+.Chevy {
+    position:absolute;
+    top: 190px;
+    left: 100px;
+    bottom: 30px;
+    height: 345px;
+    border: 5px solid navy;
+    }
+.Chevy-text {
+    top: 50px;
+    float: left;
+    left: 255px;
+    text-align: center;
+    position:relative;
+    background: turquoise;
+    padding: 20px;
+    border: 5px solid navy;
+    font-family: "Arial", sans-serif;
+    }
+.Mazda {
+    position:absolute;
+    top: 700px;
+    left: 100px;
+    bottom: 30px;
+    height: 345px;
+    border: 5px solid navy;
+    }
+.Mazda-text {
+    top: 561px;
+    float: left;
+    left: 90px;
+    text-align: center;
+    position:relative;
+    background: turquoise;
+    padding: 20px;
+    border: 5px solid navy;
+    font-family: "Arial", sans-serif;
+    }
+.Nissan {
+    position:absolute;
+    top: 700px;
+    right: 100px;
+    bottom: 30px;
+    height: 345px;
+    border: 5px solid navy;
+    }
+.Nissan-text {
+    top: 561px;
+    float: right;
+    right: 140px;
+    text-align: center;
+    position:relative;
+    background: turquoise;
+    padding: 20px;
+    border: 5px solid navy;
+    font-family: "Arial", sans-serif;
+    }
+    </style> 
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="designwebproj.html">Home</a>
+  <a href="">Page 1</a>
+  <a href="">Page 2</a>
+  
+</div>
+
+<div class="container">
+    <img src="goal7.png" alt = "goal7" style="width:100%;">
+    <div class="content">
+        <h1>Goal 7: Affordable and Clean Energy</h1>
+    </div>
+    </div>
+
+<div class="container1">
+    <img src="goal11.png" alt = "goal11" style="width:100%;">
+    <div class="content1">
+        <h1>Goal 11: Sustainable Cities and Communities</h1>
+        </div>
+    </div>
+<form action="https://sdgs.un.org/goals/goal7">
+<button class="button"><span>Learn More</span></button>
+</form>
+
+<form action="https://sdgs.un.org/goals/goal11">
+<button class="button1"><span>Learn More</span></button>
+</form>
+
+<header2>
+  <div class="wrap2">
+    <h2>Modern Electric Cars</h2>
+  </div>
+<img src="KIA.jpg" alt = "KIA" class="KIA">
+<div class="KIA-text">KIA Forte</div>
+<img src="Chevy.jpg" alt = "Chevrolet" class="Chevy">
+<div class="Chevy-text">Chevrolet Spark</div>
+<img src="mazda.jpg" alt = "Mazda" class="Mazda">
+<div class="Mazda-text">Mazda Mazda3</div>
+<img src="nissan.jpg" alt = "Nissan" class="Nissan">
+<div class="Nissan-text">Nissan Sentra</div>
+</header2>
+    
+<header1>
+    <div class="wrap1">
+        <h2>The History of Electric Cars</h2>
+  </div>
+<img src="oldelectric.jpg" alt = "old electric" class="oldelectric">
+<div class="oldelectric-text">Explanatory text, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Learn More.</div>
+    </header1>
+<header>
+  <div class="wrap">
+    <h2>How Do Electric Cars Fit In?</h2>
+  </div>
+<img src="electric.jpeg" alt = "electric" class="electric">
+<div class="electric-text">Explanatory text, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Learn More.</div>
+</header>
+
+
+    
+    </body>
+</html>
